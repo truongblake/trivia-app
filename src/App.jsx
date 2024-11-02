@@ -7,13 +7,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Start/>} />
-            <Route path="/quiz" element={<Quiz/>} />
-            <Route path="/score" element={<Score/>} />
-          </Routes>
-      </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Start/>} />
+          <Route path="/quiz" element={<Quiz/>} />
+          <Route path="/score" element={<Score/>} />
+        </Routes>
     </div>
   );
 };
