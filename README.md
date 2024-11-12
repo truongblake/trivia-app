@@ -33,7 +33,7 @@ Run the application:
 
     npm start
 
-Access the app: Open http://localhost:3000 in your browser.
+Access the app: Open http://localhost:5173 in your browser.
 
 Learning Outcome
 
